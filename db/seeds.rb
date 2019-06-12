@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+User.create(name:"Luan")
+User.create(name:"Ysa")
+User.create(name:"Diana")
+
+PokemonType.create(name:"electric")
+PokemonType.create(name:"fire")
+PokemonType.create(name:"water")
+PokemonType.create(name:"grass")
+
+Gender.create(name:"male")
+Gender.create(name:"female")
+Gender.create(name:"other")
