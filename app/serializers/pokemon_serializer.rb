@@ -1,5 +1,5 @@
 class PokemonSerializer < ActiveModel::Serializer
-  attributes :id, :name,
+  attributes :id, :name
 
 
   belongs_to :user

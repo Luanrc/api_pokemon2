@@ -16,7 +16,7 @@ class Api::V1::PokemonsController < Api::V1::ApiController
 
  def show
 
-   render json: @pokemon
+   render json: @pokemon, serializer: PokemonSerializer
 
  end
 
